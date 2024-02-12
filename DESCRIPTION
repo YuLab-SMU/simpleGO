@@ -1,0 +1,19 @@
+Package: simpleGO
+Title: Simple GO Enrichment Analysis
+Version: 0.0.1
+Authors@R: 
+    person("Guangchuang", "Yu",     email = "guangchuangyu@gmail.com", 
+            role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-6485-8781"))
+Description: What the package does (one paragraph).
+Imports:
+    AnnotationDbi,
+    GO.db,
+    clusterProfiler,
+    org.Hs.eg.db,
+    stats
+Suggests:
+    DOSE    
+License: Artistic-2.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.0
