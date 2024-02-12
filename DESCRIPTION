@@ -4,7 +4,7 @@ Version: 0.0.1
 Authors@R: 
     person("Guangchuang", "Yu",     email = "guangchuangyu@gmail.com", 
             role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-6485-8781"))
-Description: What the package does (one paragraph).
+Description: Provides a simple implementation of GO ORA analysis for demonstration of R package development.
 Imports:
     AnnotationDbi,
     GO.db,
@@ -12,8 +12,10 @@ Imports:
     org.Hs.eg.db,
     stats
 Suggests:
-    DOSE    
+    DOSE,
+    testthat (>= 3.0.0)
 License: Artistic-2.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.0
+Config/testthat/edition: 3
